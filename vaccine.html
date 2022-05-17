@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mapbox  -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/vaccine.css">
+    <title>CoronaVirus</title>
+</head>
+
+<body>
+    <!-- Navbar   -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark dark">
+        <div class="container-fluid mx-auto">
+            <a class="navbar-brand" href="./index.html"><img
+                    src="https://img.icons8.com/pastel-glyph/48/31ecec/emoji-mask--v3.png" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link mx-5" href="./index.html">Home</a>
+                    <a class="nav-link mx-5" href="./health.html">Health</a>
+                    <a class="nav-link active mx-5" href="./vaccine.html">Vaccine</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Vaccine  -->
+    <section id="sect-vaccines">
+        <h3>WHAT YOU NEED TO KNOW ABOUT COVID VACCINE</h3>
+        <div id="content">
+            <p>COVID-19 vaccines are safe and effective.
+                You may have side effects after vaccination. These are normal and should go away in a few days.
+                It typically takes two weeks after vaccination for the body to build protection (immunity) against the
+                virus
+                that causes COVID-19. You are not fully vaccinated until 2 weeks after the 2nd dose of a two-dose
+                vaccine or
+                two weeks after a one-dose vaccine.
+            </p>
+            <p>Studies show that COVID-19 vaccines are effective at keeping you from getting COVID-19. Getting a
+                COVID-19 vaccine will also help keep you from getting seriously ill even if you do get COVID-19.
+
+                COVID-19 vaccination is an important tool to bring you closer to enjoying the activities you have
+                missed.</p>
+            <p>COVID-19 vaccines teach our immune systems how to recognize and fight the virus that causes COVID-19. It
+                typically takes 2 weeks after vaccination for the body to build protection (immunity) against the virus
+                that causes COVID-19.</p>
+        </div>
+        <button id="vaccine-btn"><a href="https://www.cowin.gov.in/home" target="_blank">GET VACCINATED</a></button>
+    </section>
+
+
+    <h2 id="facts-title">COVID-19 MYTHS</h2>
+    <section id="sect-facts">
+        <div id="facts-img-container">
+            <div id="facts-container"></div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/facts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

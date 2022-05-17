@@ -1,0 +1,11 @@
+.dark {
+    background-color: #191a1a;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    font-size: 1.2rem;
+}
+
+.active {
+    color: #31ecec !important;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mapbox  -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/health.css">
+    <title>CoronaVirus</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark dark">
+        <div class="container-fluid mx-auto">
+            <a class="navbar-brand" href="./index.html"><img
+                    src="https://img.icons8.com/pastel-glyph/48/31ecec/emoji-mask--v3.png" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link mx-5" href="./index.html">Home</a>
+                    <a class="nav-link active mx-5" href="./health.html">Health</a>
+                    <a class="nav-link mx-5" href="./vaccine.html">Vaccine</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Covid Symptoms  -->
+    <section id="sect-symptoms">
+        <h2>SYMPTOMS OF COVID-19</h2>
+        <div id="symptoms">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Most Common Symptoms</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Fever</li>
+                    <li class="list-group-item">Dry Cough</li>
+                    <li class="list-group-item">Tiredness</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Less Common Symptoms</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">rash on skin</li>
+                    <li class="list-group-item">loss of taste or smell</li>
+                    <li class="list-group-item">sore throat</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Severe Symptoms</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">shortness of breath</li>
+                    <li class="list-group-item">chest pain</li>
+                    <li class="list-group-item">difficulty in breathing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Covid Diet  -->
+    <section id="sect-diet">
+        <h2>Diet For Covid-19 Positive</h2>
+        <p>The main diet focus for COVID patients is to consume foods that would help rebuild muscle, immunity and
+            energy levels. Whole grains like ragi, oats or amaranth are rich sources of complex carbohydrates. Chicken,
+            fish, eggs, paneer, soya, nuts and seeds are some good sources of protein. Healthy fats like walnuts,
+            almonds, olive oil, mustard oil are recommended during these days. To boost one’s immunity, one should take
+            turmeric milk once a day.
+        </p>
+        <p>
+            Five serving of all coloured fruits and vegetables are a must to get adequate vitamins and minerals when you
+            are COVID positive. You can have small amounts of dark chocolate with at least 70% cocoa which can lift your
+            mood, get rid of anxiety and will also boost your immunity.
+        </p>
+        <h2>Sample Diet</h2>
+        <div id="food">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/breakfast.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Breakfast</h2>
+                    <p class="card-text">Veg Poha / Chila/ Veg upma/ Namkeen veg seviya/ idli + 2 egg whites/ Golden
+                        milk with haldi and ginger powder</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/lunch.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Lunch</h2>
+                    <p class="card-text">Amaranth / ragi or multi grain flour Chapati/ Rice/ Veg Pulao/ khicadi/ dal ,
+                        green vegs , Curd Salad ( carrot and cucumber)</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/evening.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Evening</h2>
+                    <p class="card-text">Ginger tea/ veg or chicken or immunity soup/ sprouts chaat can be taken in the
+                        evening</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/dinner.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Dinner</h2>
+                    <p class="card-text">Amaranth/ ragi/ multigrain flour Chapati/ soya beans/ paneer/ chicken or green
+                        veggies Salad ( carrot and cucumber)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exercise Videos -->
+    <section id="sect-videos">
+        <h2>SOME EXERCISES TO DO DURING COVID OR POST COVID</h2>
+        <div id="videos">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/nBYXtCLlldE" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/p9F0fQK81Pw" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/b4KDw2xJESE" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/qSYJePpP7Uw" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/M5et4-mqhvc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/JhHn5PI82oU" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

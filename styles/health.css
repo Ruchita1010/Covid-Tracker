@@ -1,0 +1,138 @@
+#sect-symptoms {
+    text-align: center;
+    height: 90vh;
+    padding: 2rem 1rem;
+    background: url("../images/symptoms_bg.jpg") no-repeat center/cover;
+    color: whitesmoke;
+}
+
+#sect-symptoms h2 {
+    display: inline-block;
+    padding: 12px;
+    background-color: #022222;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+#symptoms {
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#symptoms .card {
+    width: 20rem;
+    font-size: 1.5rem;
+    background-color: inherit;
+    box-shadow: 0px 0px 20px 1px #000000;
+}
+
+#symptoms .card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#symptoms .card-body {
+    background-color: #022222;
+}
+
+.list-group-item {
+    color: whitesmoke;
+    background-color: inherit;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.list-group-item:hover {
+    transform: scale(1.2);
+}
+
+#sect-diet {
+    color: whitesmoke;
+    background-color: #000000;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#sect-diet h2 {
+    text-align: center;
+}
+
+#food {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+#food .card {
+    background-color: #000000;
+}
+
+#food .card:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+#sect-videos {
+    color: whitesmoke;
+    text-align: center;
+    background-color:#191a1a;
+    padding: 2rem 1rem;
+}
+
+#videos {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.video {
+    width:24rem;
+    height:18rem;
+    margin: 1rem;
+} 
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px 2px #000000;
+}
+
+.video iframe:hover {
+    transform: scale(1.04);
+}
+
+#sect-vaccines {
+    height: 100vh;
+    background: url("./images/vaccine_1.jpg") no-repeat center/cover;
+    text-align: center;
+    color:whitesmoke;
+    padding: 2rem;
+}
+
+@media only screen and (max-width:1336px) {
+    #symptoms {
+        height: 60vh;
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+
+    #food {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-top: 2rem;
+    }
+
+    #content {
+        overflow: auto;
+    }
+}
+

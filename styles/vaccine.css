@@ -1,0 +1,97 @@
+#sect-vaccines {
+    height: 100vh;
+    background: url("../images/vaccine_1.jpg") no-repeat center/cover;
+    text-align: center;
+    color:whitesmoke;
+    padding: 2rem;
+}
+
+#content {
+    width: 100%;
+    height: 60%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    text-align: left;
+}
+
+#vaccine-btn {
+    width: 15rem;
+    padding: 1rem;
+    background-color:#094242;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 20px 2px #31ecec;
+}
+
+#vaccine-btn a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #31ecec;
+}
+
+#vaccine-btn:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+#facts-title {
+    height: 10vh;
+    color: whitesmoke;
+    background-color: #022222;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+#facts-img-container {
+    background: url("../images/vaccine_2.jpg") no-repeat center/cover;
+    height: 100vh;
+    overflow: auto;
+}
+
+#facts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.fact-card {
+    width: 75%;
+    margin-top: 5rem;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    color: whitesmoke;
+    border: 1px double white;
+    transition: all 0.5s ease-in-out;
+}
+
+.fact-card:hover {
+    transform:translateX(50px);
+    cursor: pointer;
+}
+
+.fact-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Eczar', serif;
+    background-color:#022222;
+}
+
+.fact-body {
+    padding: 15px;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 8px black;
+}
+
+@media only screen and (max-width:1336px) {
+    #content {
+        overflow: auto;
+    }
+}
